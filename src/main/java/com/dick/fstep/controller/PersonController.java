@@ -25,7 +25,7 @@ public class PersonController {
 
         long personId = Long.parseLong(request.getParameter("id"));
         Person person =personService.findPersonById(personId);
-
+        System.out.println("test git");
         ObjectMapper mapper = new ObjectMapper();
 
         response.getWriter().write(mapper.writeValueAsString(person));
