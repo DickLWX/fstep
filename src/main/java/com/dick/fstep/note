@@ -1,0 +1,8 @@
+
+sql 查询为Null 用List接收后list.size = 1 解决办法 把left join 改为 inner join
+关于 “A LEFT JOIN B ON 条件表达式” 的一点提醒
+ON条件（“A LEFT JOIN B ON 条件表达式”中的ON）用来决定如何从B表中检索数据行。
+如果B表中没有任何一行数据匹配ON的条件,将会额外生成一行所有列为NULL的数据
+在匹配阶段WHERE子句的条件都不会被使用。仅在匹配阶段完成以后，WHERE子句条件才会被使用。它将从匹配阶段产生的数据中检索过滤。
+
+
