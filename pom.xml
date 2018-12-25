@@ -128,7 +128,12 @@
       <artifactId>standard</artifactId>
       <version>1.1.2</version>
     </dependency>
-
+       <!--谷歌验证码-->
+      <dependency>
+          <groupId>com.google.code.kaptcha</groupId>
+          <artifactId>kaptcha</artifactId>
+          <version>2.3.2</version>
+      </dependency>
   </dependencies>
 
   <build>
