@@ -13,4 +13,8 @@ public class PersonServiceImpl implements PersonService {
     public Person findPersonById(long id) {
         return personMapperDao.findPersonById(id);
     }
+
+    /*public static void main(String[] args) {
+        System.out.println(personMapperDao.);
+    }*/
 }
