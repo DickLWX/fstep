@@ -3,7 +3,7 @@ package com.dick.fstep.test.stream;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-
+// https://www.cnblogs.com/xdp-gacl/p/3634409.html
 public class TestFileInputStream {
     public static void main(String args[]) {
         int b = 0;// 使用变量b来装调用read()方法时返回的整数
