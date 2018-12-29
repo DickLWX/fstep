@@ -11,5 +11,14 @@ ON条件（“A LEFT JOIN B ON 条件表达式”中的ON）用来决定如何�
 
 当前端传的是json 时间使用字符串传的，如果后台用date去接就会出错，此时可以用@JsonDeserialize 具体怎么搞可以百度
 
+泛型中的 extend super https://www.cnblogs.com/lucky_dai/p/5485421.html
+
+多线程 https://www.cnblogs.com/wxd0108/p/5479442.html  https://www.cnblogs.com/lwbqqyumidi/p/3804883.html(基础)
+synchronized 需要注意的问题 当然，选用this也是可以的，那是因为创建线程使用了runnable方式，如果是直接继承Thread方式创建的线程，
+使用this对象作为同步锁会其实没有起到任何作用，因为是不同的对象了。因此，选择同步锁时需要格外小心...
+
+线程池 https://www.cnblogs.com/dolphin0520/p/3932921.html
+
+
 
 
