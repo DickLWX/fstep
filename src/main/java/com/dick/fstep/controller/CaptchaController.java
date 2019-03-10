@@ -70,8 +70,8 @@ public class CaptchaController {
      * @param         request
      * @param         response
      * @param         captchaCode
-     * Created        2017年1月17日 下午5:34:23
-     */
+     * Created        2017年1月17日 下午5:34:23*/
+
     @RequestMapping("/checkCaptchaCode")
     public void checkCaptchaCode(HttpServletRequest request, HttpServletResponse response,@RequestParam("captchaCode") String captchaCode){
         System.out.println("页面输入验证码===="+captchaCode);

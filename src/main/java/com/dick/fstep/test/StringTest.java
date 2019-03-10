@@ -2,14 +2,14 @@ package com.dick.fstep.test;
 
 public class StringTest {
     public static void main(String[] args) {
-       // test1();
+        //test1();
        // test2();
         //test3();
-        //test4();
-        //test5();
+       // test4();
+       // test5();
        // test6();
-       // test7();
-      //  test8();
+        //test7();
+        //test8();
     }
 
     public static void test1(){
@@ -47,7 +47,7 @@ public class StringTest {
         System.out.println(System.identityHashCode(s.intern()));
     }
     //对于加的特殊情况现暂时理解为  当字符串相加是，没有将相加的值存在字符串常量池中，执行intern后，会直接把堆中的地址放到字符串常量池中
-    //而对于直接New 的，在New的同时 ，将堆和字符串常量池中都有，但是不一样，字符串常量池应该是保存堆中地址。
+    //而对于直接New 的，在New的同时 ，将堆和字符串常量池中都有，但是不一样，字符串常量池应该是保存堆中地址。 有错？详情见 test4 和 test5的区别
     public static void test5(){
         String s = new String("1") + new String("1");
         System.out.println(System.identityHashCode(s));

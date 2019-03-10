@@ -19,6 +19,18 @@ synchronized 需要注意的问题 当然，选用this也是可以的，那是�
 
 线程池 https://www.cnblogs.com/dolphin0520/p/3932921.html
 
+数据库 https://mp.weixin.qq.com/s?__biz=MzIxNTQ3NDMzMw==&mid=2247483670&idx=1&sn=751d84d0ce50d64934d636014abe2023&chksm=979688e4a0e101f2a51d1f06ec75e25c56f8936321ae43badc2fe9fc1257b4dc1c24223699de&scene=21#wechat_redirect
+
+学习 https://github.com/Snailclimb/JavaGuide
+
+在向arraylist 添加大量元素前，如果添加元素的个数已知可以调用ensureCapacity方法，可以在加入元素之前将List扩容，减少的时间损耗
+
+threadlocal 子线程不能取到父线程的threadlocal类的变量。inheritableThreadlocal可以解决这个问题 这个类还是有些坑，要慎用
+
+nio http://www.importnew.com/19816.html
+
+
+
 
 
 

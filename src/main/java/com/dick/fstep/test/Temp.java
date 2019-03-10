@@ -5,8 +5,7 @@ import com.google.common.base.Preconditions;
 import com.google.common.collect.Lists;
 import org.springframework.web.util.HtmlUtils;
 
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 //import java.util.Optional;
 
 public class Temp {
@@ -24,5 +23,10 @@ public class Temp {
                 " <p>&nbsp;</p>\n" +
                 " <p>换行&nbsp; &nbsp; &nbsp;空格&nbsp; &nbsp;嘻嘻嘻</p>");
         System.out.println(str);*/
+        TreeMap map = new TreeMap();
+        List lsit = new ArrayList();
+        List list = new LinkedList();
+        Thread a = new Thread();
+        System.out.println(lsit.size());
     }
 }
